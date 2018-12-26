@@ -1,0 +1,54 @@
+.movie-image {
+    width: 250px;
+    height: 340px;
+    max-width: 100%;    
+}
+
+.movie-image:hover {
+    cursor: pointer;    
+}
+
+.movie-wraper{
+    width: 250px;
+    padding: 1em;
+}
+
+.movie-wraper > p {
+    color: rgb(202, 196, 196);
+}
+.movie-title {
+    color: #FDFDFD;
+}
+
+.movie-title:hover {
+    cursor: pointer;
+}
+
+.movie-tagline {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 556px) {
+    .movie-wraper{
+        width: 150px;
+        padding: 1em;
+    }
+
+    .movie-image {
+        width: 250px;
+        height: 200px;
+        max-width: 100%;    
+    }
+    .movie-tagline {
+        display: none;
+    }
+
+    .movie-title {
+        text-align: center;
+        color: #FDFDFD;
+        font-size: 18px;
+    }
+}
+
+

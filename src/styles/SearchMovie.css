@@ -1,0 +1,36 @@
+.search-container {
+    position: relative;
+}
+
+.icon-search-movie {
+    font-size: 20px;
+    position: absolute;
+    top:0.5em;
+    left:0.5em;
+}
+
+input[type=text] {
+  border-radius: 5px;
+  height: 2.5em;
+  width: 25em;
+  border: 0;
+  font-size: 14px;
+  padding-left: 2.5em;
+}
+
+.icon-search-delete {
+    font-size: 20px;
+    position: absolute;
+    top:0.4em;
+    right:0.5em;
+}
+.icon-search-delete:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width:594px){
+
+input[type=text] {
+    width: 20em;
+    }
+}
